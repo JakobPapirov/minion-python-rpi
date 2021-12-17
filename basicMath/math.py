@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 import random as rand
+import emoji as emoji
+from yachalk import chalk
 
 print("")
 name = str(input("What's your name ? "))
-print("")
+print("Welcome, " + chalk.red(chalk.bg_white("{}")).format(name) + emoji.emojize(":red_exclamation_mark:"))
+print(emoji.emojize(":strawberry:") + emoji.emojize(":strawberry:"))
 
 questionsNum = int(input("How many questions do you want? "))
 print("")
@@ -25,18 +28,21 @@ while questionsKeeper <= questionsNum:
     mq1In = int(input("{} + {} ? ".format(mathVarA, mathVarB)))
 
     if mq1In == (mathVarA + mathVarB):
-      print(":)")
+      print(" :)")
       print("")
       progress = str(progress) + '='
       print("{}".format(progress))
       print("")
       rightAns += 1
       break
-  else:
-    print(":(")
-    print("")
+    else:
+      print(" :(")
+      print("")
 
 if rightAns == questionsNum:
-  print("Wow total :) = {}".format(rightAns))
-  print("Super :==) {} \o/".format(name))
-  print("")
+  if questionsNum == 0:
+    print(chalk.bg_yellow_bright(chalk.cyan("Haha, no questions wanted!")))
+  else:
+    print("Wow total :) = {}".format(rightAns))
+    print("Super :==) {} \o/".format(name))
+    print("")
