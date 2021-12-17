@@ -8,7 +8,7 @@ name = str(input("What's your name ? "))
 print("Welcome, " + chalk.red(chalk.bg_white("{}")).format(name) + emoji.emojize(":red_exclamation_mark:"))
 print(emoji.emojize(":strawberry:") + emoji.emojize(":strawberry:"))
 
-questionsNum = int(input("How many questions do you want? "))
+questionsNum = int(input("How many questions do you want ? "))
 print("")
 
 questionsKeeper = 1
