@@ -2,7 +2,7 @@
 This repo will host python scripts I've cooked up for my daughter, age 4, to play with on her RPI 1B
 
 ## Structure and comments
-basicMath\math.py
+* basicMath\math.py
   Program asks for addition questions where the sum is between 0 - 10 (max is 9).
 
 ## Languages
