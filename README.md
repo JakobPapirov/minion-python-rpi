@@ -3,7 +3,7 @@ This repo will host python3 scripts I've cooked up for my daughter, age 4, to pl
 
 ## Structure and comments
 * en\math\math-en.py
-** test
+  * test
 * sv\math\math-sv.py
 * ru\math\math-ru.py
   
