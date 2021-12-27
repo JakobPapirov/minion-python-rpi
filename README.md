@@ -5,7 +5,6 @@ This repo will host python3 scripts I've cooked up for my daughter, age 4, to pl
 * en\
   * math\
     1. math-en.py
-    2\. Program asks for addition questions where the sum is between 0 - 10 (max is 9). First number is always 0 or 1.
     3. math-numbers-all-en.py
     4. math-numbers-en.py
     5. math-pi-en.py
