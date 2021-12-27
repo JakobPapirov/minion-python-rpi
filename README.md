@@ -20,6 +20,8 @@ All programmes are to be translated into Swedish and Russian over time.
     4. numbers-en.py
   * Python\
     1. keywords-py-en.py
+  * games\
+    1. boutique.py (en)
   
 * sv\
   * math\
@@ -37,3 +39,6 @@ a) Program asks for addition questions where the sum is between 0 - 10 (max is 9
 
 
 ### Python
+
+### Games
+a) Please see https://github.com/JakobPapirov/minion-python-rpi/commit/e7625c3b14cbedcc0ef09bfe9a9276ea84138988 for features and limitations
