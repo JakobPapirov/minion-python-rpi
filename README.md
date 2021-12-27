@@ -4,29 +4,27 @@ This repo will host python3 scripts I've cooked up for my daughter, age 4, to pl
 ## Structure and comments
 * en\
   * math\
-    * math-en.py
-     Program asks for addition questions where the sum is between 0 - 10 (max is 9). First number is always 0 or 1.
-    * math-numbers-all-en.py
-    * math-numbers-en.py
-    * math-pi-en.py
+    1. math-en.py
+    2. math-numbers-all-en.py
+    3. math-numbers-en.py
+    4. math-pi-en.py
   * lang\
-    * letters-all-en.py
-    * letters-bg-en.py
-    * letters-sm-en.py
-    * numbers-en.py
+    1. letters-all-en.py
+    2. letters-bg-en.py
+    3. letters-sm-en.py
+    4. numbers-en.py
   * Python\
-    * keywords-py-en.py
+    1. keywords-py-en.py
   
 * sv\
   * math\
-    * math-sv.py
+    1. math-sv.py
   
 * ru\
   * math\
-     * math-sv.py  
+     1. math-sv.py  
  
- 
-
+Program asks for addition questions where the sum is between 0 - 10 (max is 9). First number is always 0 or 1.
 
 ## Languages
 For programmatical and "source of Truth" reasons English will be the default language in which scripts will be written in.
