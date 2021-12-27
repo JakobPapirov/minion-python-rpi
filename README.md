@@ -2,7 +2,7 @@
 This repo will host python3 scripts I've cooked up for my daughter, age 4, to play with on her RPI 1B (works on RPI 4 too)
 
 ## Structure and comments
-* en\
+1. en\
   * math\
     1) math-en.py
     3) math-numbers-all-en.py
