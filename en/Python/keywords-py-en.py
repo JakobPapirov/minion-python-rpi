@@ -44,10 +44,14 @@ def printDef():
   elif printInColor == 'red':
     if printInBgColor == 'black':
       print(chalk.bg_black(chalk.red("{}".format(printInText))))
+      time.sleep(4)
+      # https://realpython.com/python-sleep/
     elif printInBgColor == 'white':
       print(chalk.bg_white(chalk.red("{}".format(printInText))))
+      time.sleep(4)
     elif printInBgColor == 'red':
       print(chalk.bg_red(chalk.red("{}".format(printInText))))
+      time.sleep(4)
 
 def forLoopDef():
   forLoopDefIn = input("How many times to loop ? ")
@@ -59,6 +63,8 @@ def forLoopDef():
   forLoopDefText = "Wheee"
   for i in range(forLoopDefIn):
     print(chalk.bg_black(chalk.red("{}. {}".format(i, forLoopDefText))))
+
+  time.sleep(4) # So that the user can keep-up with the programme
 
 def keywordDef():
   print("")
@@ -78,6 +84,7 @@ def keywordDef():
         keywordDefIn = input('How to show text once or many times on screen (loop) ? ')
         if keywordDefIn == 'for':
             print(":)")
+            time.sleep(4) # So that the user can keep-up with the programme
             break
         else:
             print(":(")
@@ -88,6 +95,7 @@ def keywordDef():
         keywordDefIn = input('How to ask user for input ? ')
         if keywordDefIn == 'input':
           print(":)")
+          time.sleep(4) # So that the user can keep-up with the programme
           break
         else:
           print(":(")
@@ -98,6 +106,7 @@ def keywordDef():
         keywordDefIn = input('How to print text to screen once ? ')
         if keywordDefIn == 'print':
           print(":)")
+          time.sleep(4) # So that the user can keep-up with the programme
           break
         else:
           print(":(")
@@ -106,14 +115,13 @@ storeState = True
 
 while storeState:
     print("")
-    print("----------")
+    print("--------------------")
     print("1. print.")
     print("2. for-loop.")
     print("3. keywords.")
     print("0. Press 0 to exit the game")
-    print("")
+    print("--------------------")
     userChoice = input("What do you want to do ? ")
-    print("----------")
     print("")
     if userChoice == '':
         print("You didn't make a choice, please try again")
