@@ -6,7 +6,7 @@ For programmatical and "source of Truth" reasons English will be the default lan
 
 All programmes are to be translated into Swedish and Russian over time.
 
-## Structure and comments
+## Structure
 * en\
   * math\
     1) math-en.py
@@ -30,7 +30,7 @@ All programmes are to be translated into Swedish and Russian over time.
      1. math-sv.py  
 
 ### Math
-Program asks for addition questions where the sum is between 0 - 10 (max is 9). First number is always 0 or 1.
+a) Program asks for addition questions where the sum is between 0 - 10 (max is 9). First number is always 0 or 1.
 
 ### Languages
 
