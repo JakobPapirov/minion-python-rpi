@@ -3,7 +3,7 @@ This repo will host python3 scripts I've cooked up for my daughter, age 4, to pl
 
 ## Structure and comments
 1. en\
-  * math\
+  1. math\
     1) math-en.py
     3) math-numbers-all-en.py
     4) math-numbers-en.py
