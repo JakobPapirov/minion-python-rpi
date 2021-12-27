@@ -4,10 +4,10 @@ This repo will host python3 scripts I've cooked up for my daughter, age 4, to pl
 ## Structure and comments
 * en\
   * math\
-    1. math-en.py
-    3. math-numbers-all-en.py
-    4. math-numbers-en.py
-    5. math-pi-en.py
+    1) math-en.py
+    3) math-numbers-all-en.py
+    4) math-numbers-en.py
+    5) math-pi-en.py
   * lang\
     1. letters-all-en.py
     2. letters-bg-en.py
