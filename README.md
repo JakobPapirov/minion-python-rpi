@@ -6,6 +6,20 @@ For programmatical and "source of Truth" reasons English will be the default lan
 
 All programmes are to be translated into Swedish and Russian over time.
 
+## Dev
+* Python 3.9 dev
+  * Python 3.7 on RPI 4, 8 Gb (Will be tested on the RPI 1)
+  * On the RPI python version used needs to be changed from 2.x to latest
+* Dev environment virtual (Cmder) environment Windows & PyCharm (and terminal)
+* On RPI tested via Putty and locally
+  * WinSCP
+
+## 3rd party Dependencies
+* NumPy - pip install numpy
+* mpmath - pip install mpmath
+* yachalk - pip install yachalk
+* emoji - pip install emoji
+
 ## Structure
 * en\
   * math\
