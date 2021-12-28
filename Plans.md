@@ -13,6 +13,7 @@
 from playsound import playsound
 def guitar():
   playsound(path/name.wav)
+* User generated hero and story from pre made options 
 
 http://www.grantjenks.com/docs/freegames/
 https://towardsdatascience.com/making-simple-games-in-python-f35f3ae6f31a&sa=U&ved=2ahUKEwjT_PP0nP30AhXdSvEDHcPQCIUQFnoECAkQAg&usg=AOvVaw1exztMrRuF1aDIwUIixix2
