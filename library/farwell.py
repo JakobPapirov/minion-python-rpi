@@ -15,10 +15,10 @@ def showTotalScoreBye_en(rightAns, questionsNum, name):
 def showTotalScoreBye_sv(rightAns, questionsNum, name):
   if rightAns == questionsNum:
     if questionsNum == 0:
-      print(chalk.bg_yellow_bright(chalk.cyan("Haha, du ville inte ha några frågor!")))
+      print(chalk.bg_yellow_bright(chalk.cyan("HAHA, DU VILLE INTE HA NÅGRA FRÅGOR!")))
     else:
-      print("Wow totalt :) = {}".format(rightAns))
-      print("Super :==) {} \o/".format(name))
+      print("Wow, TOTALT :) = {}".format(rightAns))
+      print("SUPER :==) {} \o/".format(name))
       print("")
       print("Hej då " + emoji.emojize(":red_exclamation_mark:"))
 

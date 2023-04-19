@@ -26,7 +26,7 @@ def welcome_en():
 def welcome_sv():
 
     print("")
-    name = str(input("Vad heter du ? "))
+    name = str(input("VAD HETER DU ? "))
     if name == '':
         name = 'Jakob'
     else:
@@ -35,7 +35,7 @@ def welcome_sv():
     print("Välkommen, " + chalk.red(chalk.bg_white("{} ")).format(name) + emoji.emojize(":red_exclamation_mark:"))
 
     print("")
-    questionsNum = input("Hur många frågor vill du ha ? ")
+    questionsNum = input("HUR MÅNGA FRÅGOR VILL DU HA ? ")
     print("")
     if questionsNum == '':
         questionsNum = 1
