@@ -16,16 +16,20 @@ while questionsKeeper <= questionsNum:
 
   questionsKeeper += 1
 
-  mathVarA = rand.randint(0,3)
+  mathVarA = rand.randint(0,10)
   mathVarB = rand.randint(0,10)
+
+  while mathVarB > mathVarA:
+    mathVarB = rand.randint(0, 10)
+  else:
+    pass
 
   mq1In = 999999
 
-  while mq1In != (mathVarA + mathVarB):
-    mq1In = int(input("{} + {} ? ".format(mathVarA, mathVarB)))
-    # Programme fails if enter or letters are submitted
+  while mq1In != (mathVarA - mathVarB):
+    mq1In = int(input("{} - {} ? ".format(mathVarA, mathVarB)))
 
-    if mq1In == (mathVarA + mathVarB):
+    if mq1In == (mathVarA - mathVarB):
       print(" :)")
       print("")
       progress = str(progress) + '='
